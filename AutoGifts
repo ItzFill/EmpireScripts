@@ -1,11 +1,4 @@
-local CoreGui = game:GetService("StarterGui")
 
-CoreGui:SetCore("SendNotification", {
-	Title = "Empire Scripts";
-	Text = "Load auto-gifts // By ianphil#4488 ";
-	Duration = 100;
-
-})
 getgenv().AutoGift = true
 
 local Workspace = game:GetService("Workspace")
