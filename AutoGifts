@@ -159,3 +159,12 @@ workspace.__THINGS.__REMOTES["redeem free gift"]:InvokeServer(ohTable1)
  
     end
 end)
+
+
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+	Title = "Empire Scripts";
+	Text = "Load auto-gifts // By ianphil#4488 ";
+	Duration = 5;
+})
